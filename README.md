@@ -1,2 +1,2 @@
 #Dupes
-This app is so annoying
+I'm making a site to find makeup dupes for IT371

@@ -3,7 +3,11 @@ li {
   text-align:center;
   color:purple;
 }
-  
+h1 {
+  font-size:30px;
+  text-align:center;
+  color:pink;
+}
 p {
   font-size:12px;
   color:blue;

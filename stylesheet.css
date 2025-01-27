@@ -1,13 +1,14 @@
+html{
+  font-family: fantasy;
+}
 h1{
   font-size: 30px;
-  font-family: fantasy;
   margin: 0 auto;
   text-align: center;
   color: deeppink;
 }
 p{
   font-size: 12px;
-  font-family: fantasy;
   color: blue;
 }
 body{

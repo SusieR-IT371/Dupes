@@ -1,11 +1,13 @@
 h1{
   font-size: 30px;
+  font-family: Fantasy;
   margin: 0 auto;
   text-align: center;
   color: deeppink;
 }
 p{
   font-size: 12px;
+  font-family: Fantasy;
   color: blue;
 }
 body{

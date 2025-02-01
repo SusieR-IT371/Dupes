@@ -2,9 +2,8 @@ html{
   font-family: fantasy;
 }
 banner{
-  width: 100%;
-  height: 600px;
-  background-size: cover;
+  display: flex;
+  align-items: center;
 }
 h1{
   font-size: 30px;

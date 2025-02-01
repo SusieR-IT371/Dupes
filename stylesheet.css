@@ -2,6 +2,7 @@ html{
   font-family: fantasy;
 }
 banner{
+  margin: 0 auto;
   display: flex;
   align-items: center;
 }

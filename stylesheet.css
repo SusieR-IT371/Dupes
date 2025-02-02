@@ -2,10 +2,11 @@ html{
   font-family: sans-serif;
 }
 banner{
-width: 100%;
-height: auto;
-background-size: cover;
-background-postion: center;
+  width: 100%;
+  height: 600px;
+  background-image: url('banner.jpeg');
+  background-size: cover;
+  background-postion: center;
 }
 h1{
   font-size: 30px;

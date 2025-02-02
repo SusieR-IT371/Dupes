@@ -21,7 +21,7 @@ p{
 body{
   background-color: thistle;
 }
-one{
+.one{
   font-size: 30px;
   margin: 0 auto;
   text-align: center;
@@ -29,11 +29,11 @@ one{
 }
 .img1{
   float: left;
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
 }
 .img2{
   float: right;
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
 }

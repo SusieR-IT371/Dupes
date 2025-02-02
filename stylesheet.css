@@ -37,16 +37,19 @@ body{
   margin: 0 auto;
   text-align: center;
   color: blue;
+  padding-bottom: 50px;
 }
 .img1{
   float: left;
   width: 300px;
   height: 300px;
+  padding-bottom: 50px;
 }
 .img2{
   float: right;
   width: 300px;
   height: 300px;
+  padding-bottom: 50px;
 }
 .footer{
   position: abosolute;

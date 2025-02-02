@@ -6,6 +6,12 @@ html{
   height: 600px;
 
 }
+.navbar{
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+  
 h1{
   font-size: 30px;
   margin: 0 auto;

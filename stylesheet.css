@@ -12,6 +12,7 @@ html{
 li{
   list-style: none;
   float: left;
+  margin-right: 20px;
 }  
   
 h1{

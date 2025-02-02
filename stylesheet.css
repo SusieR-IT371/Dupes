@@ -30,6 +30,7 @@ p{
 }
 body{
   background-color: thistle;
+  padding-bottom: 50px;
 }
 .one{
   font-size: 30px;

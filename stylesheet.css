@@ -25,11 +25,11 @@ one{
   text-align: center;
   color: blue;
 }
-artemis{
+.artemis{
   float: left;
   width: 30%;
 }
-metropolis{
+.metropolis{
   float: right;
   width: 30%;
 }

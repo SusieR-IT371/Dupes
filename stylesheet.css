@@ -19,3 +19,17 @@ p{
 body{
   background-color: thistle;
 }
+one{
+  font-size: 30px;
+  margin: 0 auto;
+  text-align: center;
+  color: blue;
+}
+artemis{
+  float: left;
+  width: 30%;
+}
+metropolis{
+  float: right;
+  width: 30%;
+}

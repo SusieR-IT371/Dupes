@@ -9,6 +9,7 @@ html{
 .navbar{
   width: 100%;
   background-color: snow;
+  padding-top: 20px;
   }
 li{
   list-style: none;

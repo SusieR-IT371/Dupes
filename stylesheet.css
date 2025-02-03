@@ -22,7 +22,7 @@ h1{
   text-align: center;
   color: deeppink;
   padding-top: 50px;
-  padding-bottom: 300px;
+  padding-bottom: 30px;
 }
 p{
   font-size: 12px;
@@ -38,7 +38,7 @@ body{
   margin: 0 auto;
   text-align: center;
   color: blue;
-  padding-bottom: 50px;
+  padding-bottom: 300px;
 }
 .img1{
   float: left;

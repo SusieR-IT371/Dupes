@@ -3,7 +3,7 @@ bgMusic.loop = true;
 window.addEventListener("load", () => {
   bgMusic.play().catch(error => console.log("Autoplay prevented:", error));
 });
-document.getElementById("musicToggle").addEventLister("click", () => {
+document.getElementById("musicToggle").addEventListener("click", () => {
   if (bgMusic.paused) {
     bgMusic.play();
   } else {

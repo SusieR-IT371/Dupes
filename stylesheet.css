@@ -11,7 +11,11 @@ html{
   background-color: snow;
   width: 100%;
   padding-top: 20px;
-  }
+}
+.nav-item.highlight{
+  background-color: palegreen;
+  border-radius: 5px;
+}
 li{
   list-style: none;
   float: left;

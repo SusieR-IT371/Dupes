@@ -7,17 +7,13 @@ window.addEventListener("load", () => {
   
 const musicButtons = document.querySelectorAll(".musicToggle");
 
-musicButtons.forEach(button => {
-    button.addEventListener("click", () => {
+  button.addEventListener("click", () => {
         if (bgMusic.paused) {
             bgMusic.play();
-            musicButtons.forEach(btn => btn.textContent = "Pause Music");
         } else {
             bgMusic.pause();
-            musicButtons.forEach(btn => btn.textContent = "Play Music");
         }
-    });
-});
+  });
 
 const navItems = document.querySelectorAll(".nav-item");
 navItems.forEach(item => {

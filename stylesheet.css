@@ -12,6 +12,10 @@ html{
   width: 100%;
   padding-top: 20px;
 }
+.nav-item{
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
 .nav-item.highlight{
   background-color: palegreen;
   border-radius: 5px;

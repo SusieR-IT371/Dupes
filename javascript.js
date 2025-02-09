@@ -7,6 +7,7 @@ window.addEventListener("load", () => {
   
 const musicButtons = document.querySelectorAll(".musicToggle");
 
+musicButtons.forEach(button => {
   button.addEventListener("click", () => {
         if (bgMusic.paused) {
             bgMusic.play();
@@ -14,6 +15,7 @@ const musicButtons = document.querySelectorAll(".musicToggle");
             bgMusic.pause();
         }
   });
+});
 
 const navItems = document.querySelectorAll(".nav-item");
 navItems.forEach(item => {

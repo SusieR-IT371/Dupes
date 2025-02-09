@@ -10,3 +10,12 @@ document.getElementById("musicToggle").addEventListener("click", () => {
     bgMusic.pause();
   }
 });
+const navItems = document.querySelectorAll(".nav-item");
+navItems.forEach(item => {
+  item.addEventListener("mouseover", () => {
+    item.classList.add("highlight");
+  });
+  item.addEventListener("mouseout", () => {
+    item.classList.remove("highlight");
+  });
+});

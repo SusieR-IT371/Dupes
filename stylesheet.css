@@ -31,7 +31,9 @@ html{
 .navbar li {
   margin-right: 20px;
 }
-  
+.musicToggle{
+  padding-top: 20px;
+}
 h1{
   font-size: 30px;
   margin: 0 auto;

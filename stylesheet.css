@@ -25,7 +25,7 @@ html{
   transition: background-color 0.3s ease-in-out;
 }
 .nav-item.highlight{
-  background-color: palegreen;
+  background-color: palegreen !important;
   border-radius: 5px;
 }
 .navbar li {

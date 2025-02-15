@@ -21,7 +21,16 @@
   </header>
 <h1>Hello Everyone</h1>
 <p class="one">This site is created for IT371 Course. I'm making a makeup dupe site. You can click the image to shop the product.</p>
-<div class="footer"> Send your makeup dupes to dupes@makeupdupes.com</div>
+<div class="footer">
+  Give us your makeup dupe suggestions:
+  <form action="submit_suggestion.php" method="post">
+    <label for="name">Name (Optional):</label>
+    <input type="text" class="name" name=name>
+    <label for="suggestion">Your suggestion</label>
+    <textarea class="suggestion" name="suggestion" required></textarea>
+    <button type="submit">Submit</button>
+  </form>
+</div>
 <script src="javascript.js"></script>
 </body>
 </html>

@@ -1,7 +1,7 @@
 <?php
-require 'C:\Users\susan\OneDrive\Documents\GitHub\Dupes\PHPMailer-master\src\Exception.php';
-require 'C:\Users\susan\OneDrive\Documents\GitHub\Dupes\PHPMailer-master\src\PHPMailer.php';
-require 'C:\Users\susan\OneDrive\Documents\GitHub\Dupes\PHPMailer-master\src\SMTP.php';
+require 'PHPMailer.php';
+require 'Exception.php';
+require 'SMTP.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $name = htmlspecialchars($_POST['name'] ?? 'Anonymous');

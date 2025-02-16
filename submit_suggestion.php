@@ -1,8 +1,4 @@
 <?php
-require 'PHPMailer/PHPMailer.php';
-require 'PHPMailer/Exception.php';
-require 'PHPMailer/SMTP.php';
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $name = htmlspecialchars($_POST['name'] ?? 'Anonymous');
   $suggestion = htmlspecialchars($_POST['suggestion'] ?? '');
@@ -12,31 +8,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     exit;
   }
 
-  $mail = new PHPMailer\PHPMailer\PHPMailer();
-  try {
-      $mail->isSMTP();
-      $mail->Host = 'smtp.yahoo.com';
-      $mail->SMTPAuth = true;
-      $mail->Username = 'makeupdupes@yahoo.com';
-      $mail->Password = 'IT371dupes!';
-      $mail->SMTPSecure = PHPMailer\PHPMailer\PHPMailer::ENCRYPTION_STARTTLS;
-      $mail->Port = 587;
-
-      $mail->setFrom('makeupdupes@yahoo.com', 'Susie');
-      $mail->addAddress('makeupdupes@yahoo.com');
-    
-      $mail->isHTML(false);
-    
-      $mail->Subject = "New Suggestion from $name";
-      $mail->Body = "Suggestion:\n$suggestion";
+  $to = "susan.reimer96@gmail.com";
+  $subject = "New Suggestion from $name";
+  $message = "Suggestion:\n$suggestion";
   
-  if ($mail->send()) {
+  if (mail($to, $subject, $message)) {
     echo "Thank you for your suggestion!";
   } else {
     echo "There was an issue sending your suggestion.";
-  }
-} catch (Exception $e) {
-  echo "Mailer Error: {$mail->ErrorInfo}";
   }
 }
 ?>

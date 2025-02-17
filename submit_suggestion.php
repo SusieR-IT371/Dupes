@@ -1,7 +1,7 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $name = htmlspecialchars($_POST['name'] ?? 'Anonymous');
-  $suggestion = htmlspecialchars($_POST['suggestion'] ?? '');
+if ($_SERVER["REQUEST_METHOD"] == "GET") {
+  $name = htmlspecialchars($_GET['name'] ?? 'Anonymous');
+  $suggestion = htmlspecialchars($_GET['suggestion'] ?? '');
 
   if (empty($suggestion)) {
     echo "Please enter a suggestion.";

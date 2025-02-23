@@ -40,7 +40,6 @@ h1{
   text-align: center;
   color: deeppink;
   padding-top: 50px;
-  padding-bottom: 50px;
 }
 p{
   font-size: 12px;
@@ -51,7 +50,7 @@ body{
 }
 .one{
   font-size: 30px;
-  margin: 0 auto;
+  margin-top: 50px;
   text-align: center;
   color: blue;
   padding-bottom: 300px;

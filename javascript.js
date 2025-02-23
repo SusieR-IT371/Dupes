@@ -26,20 +26,27 @@ navItems.forEach(item => {
     item.classList.remove("highlight");
   });
 });
-const video = document.getElementById("myVideo");
-const playPauseBtn = document.getElementById("playPauseBtn");
-const muteUnmuteBtn = document.getElementById("muteUnmuteBtn");
+document.addEventListener("DOMContentLoaded", () => {
+  const video = document.getElementById("myVideo");
+  const playPauseBtn = document.getElementById("playPauseBtn");
+  const muteUnmuteBtn = document.getElementById("muteUnmuteBtn");
 
-playPauseBtn.addEventListener("click", () => {
-    if (video.paused) {
+  if (video && playPauseBtn && muteUnmuteBtn) {
+    playPauseBtn.addEventListener("click", () => {
+      if (video.paused) {
         video.play();
         playPauseBtn.textContent = "Pause";
-    } else {
+      } else {
         video.pause();
         playPauseBtn.textContent = "Play";
-    }
-});
-muteUnmuteBtn.addEventListener("click", () => {
-    video.muted = !video.muted;
-    muteUnmuteBtn.textContent = video.muted ? "Unmute" : "Mute";
+      }
+    });
+
+    muteUnmuteBtn.addEventListener("click", () => {
+      video.muted = !video.muted;
+      muteUnmuteBtn.textContent = video.muted ? "Unmute" : "Mute";
+    });
+  } else {
+    console.error("Video or buttons not found!");
+  }
 });

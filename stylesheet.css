@@ -79,7 +79,7 @@ body{
   margin-top: 1px;
 }
 .video-container {
-    display:block;
+    display: block;
     margin: 20px auto 20px auto;
     border: 5px solid #fff;
     max-height: 620px;

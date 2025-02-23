@@ -79,8 +79,10 @@ body{
   margin-top: 1px;
 }
 .video-container {
-    text-align: center;
-    margin-top: 20px;
+    display:block;
+    margin: 20px auto 20px auto;
+    border: 5px solid #fff;
+    
 }
 button {
     padding: 10px 15px;

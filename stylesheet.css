@@ -78,3 +78,20 @@ body{
 .source{
   margin-top: 1px;
 }
+.video-container {
+    text-align: center;
+    margin-top: 20px;
+}
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    background-color: #ff69b4; /* Pinkish color */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover {
+    background-color: #ff1493; /* Darker pink */
+}

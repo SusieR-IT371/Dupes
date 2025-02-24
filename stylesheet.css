@@ -80,7 +80,7 @@ body{
 }
 .video-container {
     display: block;
-    margin: 20px auto 20px auto;
+    text-align: center;
     border: 5px solid #fff;
 }
 button {
